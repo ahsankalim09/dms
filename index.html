@@ -24,6 +24,167 @@
 	<!-- template-style-->
 	<link href="css/style.css" rel="stylesheet">
 	<link href="css/responsive.css" rel="stylesheet">
+	<style>
+		.submenu-custom {
+			display: block !important;
+			width: 100% !important;
+			position: relative !important;
+		}
+
+		.submenuListing {
+			position: absolute !important;
+			top: -60px !important;
+			background-color: #12124c !important;
+			z-index: 1 !important;
+			right: -164px !important;
+			padding: 10px;
+			visibility: hidden;
+			border: 3px solid #077bea;
+
+		}
+
+		.submenuListing:after {
+			content: '';
+			position: absolute;
+			left: 0;
+			width: 3px;
+			height: 100%;
+			background: none !important;
+		}
+
+
+		.submenuListing a {
+			font-size: 11px !important;
+		}
+
+		.submenu-custom:hover .submenuListing {
+			visibility: visible;
+
+		}
+
+
+		/* ///// */
+
+		.ecommerce-custom {
+			display: block !important;
+			width: 120% !important;
+			position: relative !important;
+		}
+
+		.ecommerceSubmenuListing {
+			position: absolute !important;
+			top: -50px !important;
+			background-color: #12124c !important;
+			z-index: 1 !important;
+			right: -110px !important;
+			padding: 10px;
+			visibility: hidden;
+			border: none !important;
+			border: 3px solid #077bea !important;
+
+		}
+
+		.ecommerceSubmenuListing:after {
+			content: '';
+			position: absolute;
+			left: 0;
+			width: 3px;
+			height: 100%;
+			background: none !important;
+		}
+
+
+		.ecommerceSubmenuListing a {
+			font-size: 11px !important;
+		}
+
+		.ecommerce-custom:hover .ecommerceSubmenuListing {
+			visibility: visible;
+
+		}
+
+
+		/* //// */
+
+
+		.woocommerce-custom {
+			display: block !important;
+			width: 180% !important;
+			position: relative !important;
+		}
+
+		.woocommerceSubmenuListing {
+			position: absolute !important;
+			top: -50px !important;
+			background-color: #12124c !important;
+			z-index: 1 !important;
+			right: -110px !important;
+			padding: 10px;
+			visibility: hidden;
+			border: none !important;
+			border: 3px solid #077bea !important;
+
+		}
+
+		.woocommerceSubmenuListing:after {
+			content: '';
+			position: absolute;
+			left: 0;
+			width: 3px;
+			height: 100%;
+			background: none !important;
+		}
+
+
+		.woocommerceSubmenuListing a {
+			font-size: 11px !important;
+		}
+
+		.woocommerce-custom:hover .woocommerceSubmenuListing {
+			visibility: visible;
+
+		}
+
+		/* ///// */
+
+		.specialized-custom {
+			display: block !important;
+			width: 180% !important;
+			position: relative !important;
+		}
+
+		.specializedSubmenuListing {
+			position: absolute !important;
+			top: -60px !important;
+			background-color: #12124c !important;
+			z-index: 1 !important;
+			right: -130px !important;
+			padding: 10px;
+			visibility: hidden;
+			border: none !important;
+			border: 3px solid #077bea !important;
+
+		}
+
+		.specializedSubmenuListing:after {
+			content: '';
+			position: absolute;
+			left: 0;
+			width: 3px;
+			height: 100%;
+			background: none !important;
+		}
+
+
+		.specializedSubmenuListing a {
+			font-size: 11px !important;
+		}
+
+		.specialized-custom:hover .specializedSubmenuListing {
+			visibility: visible;
+
+		}
+	</style>
 </head>
 
 <body>
@@ -75,51 +236,6 @@
 									</div>
 								</div> -->
 						</li>
-						<li class="sbmenu"><a href="#" class="menu-links">Course</a>
-							<!-- <div class="nx-dropdown">
-								<div class="sub-menu-section">
-									<div class="container">
-										<div class="col-md-12">
-											<div class="sub-menu-center-block">
-												<div class="sub-menu-column">
-													<a href="#"><img src="images/banner/header-img-1.png" alt="service" class="img-fluid"></a>
-												</div>
-												<div class="sub-menu-column">
-													<div class="menuheading">Why Niwax</div>
-													<ul>
-														<li><a href="about.html">About Us</a></li>
-														<li><a href="why-us.html">Why Us</a></li>
-														<li><a href="team.html">Our Team</a></li>
-														<li><a href="team-details.html">Team Single</a></li>
-														<li><a href="case-study.html">Case Study</a></li>
-														<li><a href="case-study-details.html">Case Study Single</a></li>
-													</ul>
-												</div>
-												<div class="sub-menu-column">
-													<div class="menuheading">&nbsp;</div>
-													<ul>
-														<li><a href="mission-vision.html">Mission & Vision</a></li>
-														<li><a href="development-process.html">Our Development Process</a></li>
-														<li><a href="client-reviews.html">Client Reviews</a> </li>
-														<li><a href="clients.html" >Our Clients</a></li>
-														<li><a href="blog-grid.html">Blog Grid</a> </li>
-														<li><a href="blog-single.html">Blog Single</a></li>
-													</ul>
-												</div>
-												<div class="sub-menu-column">
-													<div class="menuheading">&nbsp;</div>
-													<ul>
-														<li><a href="portfolio.html">Portfolio Grid</a> </li>
-														<li><a href="portfolio-block.html">Portfolio Block</a> </li>
-														<li><a href="portfolio-details.html">Portfolio Details</a> </li>
-														<li><a href="get-quote.html">Contact Us</a> </li>
-													</ul>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div> -->
 						</li>
 						<li class="sbmenu"><a href="service-details.html" class="menu-links">Services</a>
 							<div class="nx-dropdown">
@@ -162,7 +278,52 @@
 													<div class="menuheading">Search Engine
 														Optimization</div>
 													<ul>
-														<li><a href="service-details3.html">Regular SEO Services</a>
+														<li class="submenu-custom "><a
+																href="service-details3.html">Regular SEO Services +</a>
+															<ul class="submenuListing">
+																<li><a href="#">Enterprise SEO Services</a>
+																</li>
+																<li><a href="#">Local SEO Services</a> </li>
+																<li class="specialized-custom"><a href="#">Specialized
+																		SEO Services +</a>
+																	<ul class="specializedSubmenuListing">
+																		<li><a href="#">Conversion Optimization
+																				Services</a></li>
+																		<li><a href="#">International SEO Services</a>
+																		</li>
+																		<li><a href="#">Video SEO Services </a> </li>
+																		<li><a href="#">Moblie SEO Services </a> </li>
+																		<li><a href="#">Comprehensive SEO Audit </a>
+																		</li>
+																	</ul>
+																</li>
+																<li><a href="#">B2B SEO Services</a> </li>
+																<li><a href="#">B2B SEO Services</a> </li>
+																<li><a href="#">Saas SEO Services</a> </li>
+																<li class="woocommerce-custom"><a href="#">Woocommerce
+																		SEO +</a>
+																	<ul class="woocommerceSubmenuListing">
+																		<li><a href="#">Woocommerce Optimization
+																				Services</a>
+																		</li>
+																		<li><a href="#">Woocommerce Speed
+																				Optimization</a> </li>
+																	</ul>
+																</li>
+																<li><a href="#">Technical SEO </a> </li>
+																<li><a href="#">SEO Strategy</a> </li>
+																<li class="ecommerce-custom"><a href="#">Ecommerce SEO +
+																	</a>
+																	<ul class="ecommerceSubmenuListing">
+																		<li><a href="#">Ecommerce Store</a>
+																		</li>
+																		<li><a href="#">Ecommerce Solution</a> </li>
+																	</ul>
+																</li>
+																<li><a href="#">Amazon SEO </a> </li>
+																<li><a href="#">Shopify SEO </a> </li>
+																<li><a href="#">SEO Content Writer </a> </li>
+															</ul>
 														</li>
 														<li><a href="#">Social Media Marketing</a>
 														</li>

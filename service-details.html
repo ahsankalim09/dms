@@ -13,7 +13,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="theme-color" content="#322d97">
 	<!--website-favicon-->
-	<link href="images/favicon.png" rel="icon">
+	<link href="images/faviconD.png" rel="icon">
 	<!--plugin-css-->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/plugin.min.css" rel="stylesheet">
@@ -28,6 +28,166 @@
 		.anchro {
 			color: black !important;
 		}
+
+		.submenu-custom {
+			display: block !important;
+			width: 100% !important;
+			position: relative !important;
+		}
+
+		.submenuListing {
+			position: absolute !important;
+			top: -60px !important;
+			background-color: #12124c !important;
+			z-index: 1 !important;
+			right: -164px !important;
+			padding: 10px;
+			visibility: hidden;
+			border: 3px solid #077bea;
+
+		}
+
+		.submenuListing:after {
+			content: '';
+			position: absolute;
+			left: 0;
+			width: 3px;
+			height: 100%;
+			background: none !important;
+		}
+
+
+		.submenuListing a {
+			font-size: 11px !important;
+		}
+
+		.submenu-custom:hover .submenuListing {
+			visibility: visible;
+
+		}
+
+
+		/* ///// */
+
+		.ecommerce-custom {
+			display: block !important;
+			width: 120% !important;
+			position: relative !important;
+		}
+
+		.ecommerceSubmenuListing {
+			position: absolute !important;
+			top: -50px !important;
+			background-color: #12124c !important;
+			z-index: 1 !important;
+			right: -110px !important;
+			padding: 10px;
+			visibility: hidden;
+			border: none !important;
+			border: 3px solid #077bea !important;
+
+		}
+
+		.ecommerceSubmenuListing:after {
+			content: '';
+			position: absolute;
+			left: 0;
+			width: 3px;
+			height: 100%;
+			background: none !important;
+		}
+
+
+		.ecommerceSubmenuListing a {
+			font-size: 11px !important;
+		}
+
+		.ecommerce-custom:hover .ecommerceSubmenuListing {
+			visibility: visible;
+
+		}
+
+
+		/* //// */
+
+
+		.woocommerce-custom {
+			display: block !important;
+			width: 180% !important;
+			position: relative !important;
+		}
+
+		.woocommerceSubmenuListing {
+			position: absolute !important;
+			top: -50px !important;
+			background-color: #12124c !important;
+			z-index: 1 !important;
+			right: -110px !important;
+			padding: 10px;
+			visibility: hidden;
+			border: none !important;
+			border: 3px solid #077bea !important;
+
+		}
+
+		.woocommerceSubmenuListing:after {
+			content: '';
+			position: absolute;
+			left: 0;
+			width: 3px;
+			height: 100%;
+			background: none !important;
+		}
+
+
+		.woocommerceSubmenuListing a {
+			font-size: 11px !important;
+		}
+
+		.woocommerce-custom:hover .woocommerceSubmenuListing {
+			visibility: visible;
+
+		}
+
+		/* ///// */
+
+		.specialized-custom {
+			display: block !important;
+			width: 180% !important;
+			position: relative !important;
+		}
+
+		.specializedSubmenuListing {
+			position: absolute !important;
+			top: -60px !important;
+			background-color: #12124c !important;
+			z-index: 1 !important;
+			right: -130px !important;
+			padding: 10px;
+			visibility: hidden;
+			border: none !important;
+			border: 3px solid #077bea !important;
+
+		}
+
+		.specializedSubmenuListing:after {
+			content: '';
+			position: absolute;
+			left: 0;
+			width: 3px;
+			height: 100%;
+			background: none !important;
+		}
+
+
+		.specializedSubmenuListing a {
+			font-size: 11px !important;
+		}
+
+		.specialized-custom:hover .specializedSubmenuListing {
+			visibility: visible;
+
+		}
 	</style>
 </head>
 
@@ -37,94 +197,49 @@
 		<div class="container-fluid m-pad">
 			<div class="menu-header">
 				<div class="dsk-logo"><a class="nav-brand" href="index.html">
-						<!-- <img src="images/white-logo.png" alt="Logo" class="mega-white-logo"/>
-							<img src="images/logo.png" alt="Logo" class="mega-darks-logo"/> -->
-						<a href="#" class="menu-links">Logo</a>
+						<img src="images/logoD.png" alt="Logo" class="mega-white-logo" />
+						<img src="images/logoD.png" alt="Logo" class="mega-darks-logo" />
+						<!-- <a href="#" class="menu-links">Logo</a> -->
 					</a></div>
 				<div class="custom-nav" role="navigation">
 					<ul class="nav-list">
 						<li class="sbmenu"><a href="index.html" class="menu-links anchro">Home</a>
 							<!-- <div class="nx-dropdown">
-									<div class="sub-menu-section">
-										<div class="container">
-											<div class="col-md-12">
-												<div class="sub-menu-center-block">
-													<div class="sub-menu-column btn-block">
-														<div class="submenu-btnset">
-															<a href="#" class="btn-main lnk">View Showcase <i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a>
-															<a href="#" class="btn-main bg-btn3 lnk mt20">View Showcase <i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a></div>
-														</div>
-														<div class="sub-menu-column">
-															<div class="menuheading">Homepage Light</div>
-															<ul>
-																<li><a href="index.html">Digital Agency <span class="badge badge-warning">New</span></a></li>
-																<li><a href="index0.html">Web Development</a></li>
-																<li><a href="index1.html">Digital Marketing</a></li>
-																<li><a href="index2.html">Freelance Portfolio</a></li>
-																<li><a href="index3.html">Lead Generation Agency</a></li>
-															</ul>
-														</div>
-														<div class="sub-menu-column">
-															<div class="menuheading">Homepage Dark</div>
-															<ul>
-																<li><a href="index-dark.html">Digital Agency <span class="badge badge-warning">New</span></a></li>
-																<li><a href="index0-dark.html">Web Development</a></li>
-																<li><a href="index1-dark.html">Digital Marketing</a></li>
-																<li><a href="index2-dark.html">Freelance Portfolio</a></li>
-																<li><a href="index3-dark.html">Lead Generation Agency</a></li>
-															</ul>
+										<div class="sub-menu-section">
+											<div class="container">
+												<div class="col-md-12">
+													<div class="sub-menu-center-block">
+														<div class="sub-menu-column btn-block">
+															<div class="submenu-btnset">
+																<a href="#" class="btn-main lnk">View Showcase <i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+																<a href="#" class="btn-main bg-btn3 lnk mt20">View Showcase <i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a></div>
+															</div>
+															<div class="sub-menu-column">
+																<div class="menuheading">Homepage Light</div>
+																<ul>
+																	<li><a href="index.html">Digital Agency <span class="badge badge-warning">New</span></a></li>
+																	<li><a href="index0.html">Web Development</a></li>
+																	<li><a href="index1.html">Digital Marketing</a></li>
+																	<li><a href="index2.html">Freelance Portfolio</a></li>
+																	<li><a href="index3.html">Lead Generation Agency</a></li>
+																</ul>
+															</div>
+															<div class="sub-menu-column">
+																<div class="menuheading">Homepage Dark</div>
+																<ul>
+																	<li><a href="index-dark.html">Digital Agency <span class="badge badge-warning">New</span></a></li>
+																	<li><a href="index0-dark.html">Web Development</a></li>
+																	<li><a href="index1-dark.html">Digital Marketing</a></li>
+																	<li><a href="index2-dark.html">Freelance Portfolio</a></li>
+																	<li><a href="index3-dark.html">Lead Generation Agency</a></li>
+																</ul>
+															</div>
 														</div>
 													</div>
 												</div>
 											</div>
-										</div>
-									</div> -->
+										</div> -->
 						</li>
-						<li class="sbmenu"><a href="#" class="menu-links anchro">Course</a>
-							<!-- <div class="nx-dropdown">
-									<div class="sub-menu-section">
-										<div class="container">
-											<div class="col-md-12">
-												<div class="sub-menu-center-block">
-													<div class="sub-menu-column">
-														<a href="#"><img src="images/banner/header-img-1.png" alt="service" class="img-fluid"></a>
-													</div>
-													<div class="sub-menu-column">
-														<div class="menuheading">Why Niwax</div>
-														<ul>
-															<li><a href="about.html">About Us</a></li>
-															<li><a href="why-us.html">Why Us</a></li>
-															<li><a href="team.html">Our Team</a></li>
-															<li><a href="team-details.html">Team Single</a></li>
-															<li><a href="case-study.html">Case Study</a></li>
-															<li><a href="case-study-details.html">Case Study Single</a></li>
-														</ul>
-													</div>
-													<div class="sub-menu-column">
-														<div class="menuheading">&nbsp;</div>
-														<ul>
-															<li><a href="mission-vision.html">Mission & Vision</a></li>
-															<li><a href="development-process.html">Our Development Process</a></li>
-															<li><a href="client-reviews.html">Client Reviews</a> </li>
-															<li><a href="clients.html" >Our Clients</a></li>
-															<li><a href="blog-grid.html">Blog Grid</a> </li>
-															<li><a href="blog-single.html">Blog Single</a></li>
-														</ul>
-													</div>
-													<div class="sub-menu-column">
-														<div class="menuheading">&nbsp;</div>
-														<ul>
-															<li><a href="portfolio.html">Portfolio Grid</a> </li>
-															<li><a href="portfolio-block.html">Portfolio Block</a> </li>
-															<li><a href="portfolio-details.html">Portfolio Details</a> </li>
-															<li><a href="get-quote.html">Contact Us</a> </li>
-														</ul>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div> -->
 						</li>
 						<li class="sbmenu"><a href="service-details.html" class="menu-links anchro">Services</a>
 							<div class="nx-dropdown">
@@ -132,58 +247,109 @@
 									<div class="container">
 										<div class="col-md-12">
 											<div class="sub-menu-center-block">
-												<!-- <div class="sub-menu-column">
-														<div class="menuheading">Web Developments</div>
-														<ul>
-															<li><a href="service-details.html">Web Development</a></li>
-															<li><a href="#" class="disabled">PHP Development</a></li>
-															<li><a href="#" class="disabled">Angular JS Development</a></li>
-															<li><a href="#" class="disabled">Laravel Development</a></li>
-															<li><a href="#" class="disabled">Node Development</a></li>
-															<li><a href="#" class="disabled">Codeigniter Development</a>
-															</li>
-															<li><a href="#" class="disabled">ASP.Net Development</a></li>
-														</ul>
-													</div>
-													<div class="sub-menu-column">
-														<div class="menuheading">Mobile App Development </div>
-														<ul>
-															<li><a href="service-details2.html">Mobile App Development</a>
-															</li>
-															<li><a href="#" class="disabled">Android App Development</a>
-															</li>
-															<li><a href="#" class="disabled">iPhone App Development</a>
-															</li>
-															<li><a href="#" class="disabled">Windows App Development</a>
-															</li>
-															<li><a href="#" class="disabled">Custom Application
-																	Development</a> </li>
-															<li><a href="#" class="disabled">Wearable App Development</a>
-															</li>
-														</ul>
-													</div> -->
 												<div class="sub-menu-column">
-													<div class="menuheading">Digital Marketing</div>
+													<div class="menuheading ">Graphic Design</div>
 													<ul>
-														<li><a href="service-details3.html">Search Engine
-																Optimization</a> </li>
-														<li><a href="#" class="disabled">Social Media Marketing</a>
+														<li><a href="service-details4.html">Wordpress Website Design
+																Services</a>
 														</li>
-														<li><a href="#" class="disabled">Pay per Click</a> </li>
-														<li><a href="#" class="disabled">Content Writing</a> </li>
-														<li><a href="#" class="disabled">Email Marketing</a> </li>
+														<li><a href="#">Cheap Logo Design</a> </li>
+														<li><a href="#">Online Logo Design</a> </li>
+														<li><a href="#">Business Stationery Design</a> </li>
+														<li><a href="#">Brochure Design</a> </li>
+														<li><a href="#">Visiting Card</a> </li>
+														<li><a href="#">Best Web Design Company</a> </li>
+														<li><a href="#">Website Design</a> </li>
+
+													</ul>
+													<br><br><br><br>
+													<br><br><br><br>
+													<br><br><br><br>
+													<br><br><br><br>
+												</div>
+												<div class="sub-menu-column">
+													<div class="menuheading ">Social Media Marketing Services</div>
+													<ul>
+														<li><a href="service-details4.html">Social Media Marketing
+																Services</a>
+														</li>
+														<li><a href="#">Social Media Optimization Services</a> </li>
+														<li><a href="#">Specialized Social Media Marketing Services</a>
+														</li>
 													</ul>
 												</div>
 												<div class="sub-menu-column">
-													<div class="menuheading">Graphic Design</div>
+													<div class="menuheading">Search Engine
+														Optimization</div>
 													<ul>
-														<li><a href="service-details4.html">Graphic Design Service </a>
+														<li class="submenu-custom"><a
+																href="service-details3.html">Regular SEO Services +</a>
+															<ul class="submenuListing">
+																<li><a href="#">Enterprise SEO Services</a>
+																</li>
+																<li><a href="#">Local SEO Services</a> </li>
+																<li class="specialized-custom"><a href="#">Specialized
+																		SEO Services +</a>
+																	<ul class="specializedSubmenuListing">
+																		<li><a href="#">Conversion Optimization
+																				Services</a></li>
+																		<li><a href="#">International SEO Services</a>
+																		</li>
+																		<li><a href="#">Video SEO Services </a> </li>
+																		<li><a href="#">Moblie SEO Services </a> </li>
+																		<li><a href="#">Comprehensive SEO Audit </a>
+																		</li>
+																	</ul>
+																</li>
+																<li><a href="#">B2B SEO Services</a> </li>
+																<li><a href="#">B2B SEO Services</a> </li>
+																<li><a href="#">Saas SEO Services</a> </li>
+																<li class="woocommerce-custom"><a href="#">Woocommerce
+																		SEO +</a>
+																	<ul class="woocommerceSubmenuListing">
+																		<li><a href="#">Woocommerce Optimization
+																				Services</a>
+																		</li>
+																		<li><a href="#">Woocommerce Speed
+																				Optimization</a> </li>
+																	</ul>
+																</li>
+																<li><a href="#">Technical SEO </a> </li>
+																<li><a href="#">SEO Strategy</a> </li>
+																<li class="ecommerce-custom"><a href="#">Ecommerce SEO +
+																	</a>
+																	<ul class="ecommerceSubmenuListing">
+																		<li><a href="#">Ecommerce Store</a>
+																		</li>
+																		<li><a href="#">Ecommerce Solution</a> </li>
+																	</ul>
+																</li>
+																<li><a href="#">Amazon SEO </a> </li>
+																<li><a href="#">Shopify SEO </a> </li>
+																<li><a href="#">SEO Content Writer </a> </li>
+															</ul>
 														</li>
-														<li><a href="#" class="disabled">Brochure Design</a> </li>
-														<li><a href="#" class="disabled">Print & Packaging Design</a>
+														<li><a href="#">Social Media Marketing</a>
 														</li>
-														<li><a href="#" class="disabled">Logo Design</a> </li>
-														<li><a href="#" class="disabled">Branding</a> </li>
+														<li><a href="#">SEO By Business Category</a> </li>
+														<li><a href="#">SEO By Location</a> </li>
+													</ul>
+												</div>
+												<div class="sub-menu-column">
+													<div class="menuheading">Link Building</div>
+													<ul>
+														<li><a href="service-details4.html">Link Building Services </a>
+														</li>
+														<li><a href="#">Link Removal Services</a> </li>
+														<li><a href="#">Bad Link Removal Services</a></li>
+													</ul>
+												</div>
+												<div class="sub-menu-column">
+													<div class="menuheading">Advertising</div>
+													<ul>
+														<li><a href="service-details4.html">Digital Advertising </a>
+														</li>
+														<li><a href="#">Google Ads Management</a> </li>
 													</ul>
 												</div>
 											</div>
@@ -194,48 +360,48 @@
 						</li>
 						<li class="sbmenu"><a href="#" class="menu-links anchro">Portfolio</a>
 							<!-- <div class="nx-dropdown">
-							<div class="sub-menu-section">
-								<div class="container">
-									<div class="col-md-12">
-										<div class="sub-menu-center-block">
-											<div class="sub-menu-column">
-												<a href="#"><img src="images/banner/header-img-2.png" alt="service" class="img-fluid"></a>
-											</div>
-											<div class="sub-menu-column">
-												<div class="menuheading">Shortcodes</div>
-												<ul>
-													<li><a href="pricing.html">Pricing</a></li>
-													<li><a href="service.html">Service Card</a></li>
-													<li><a href="typography.html">Typography</a></li>
-													<li><a href="button.html">Buttons</a></li>
-													<li><a href="locations.html">Office Location</a></li>
-													
-													
-												</ul>
-											</div>
-											<div class="sub-menu-column">
-												<div class="menuheading">&nbsp;</div>
-												<ul>
-													<li><a href="faq.html">FAQs</a>	</li>
-													<li><a href="accordion.html">Accordion</a></li>
-													<li><a href="error.html">404 Page</a></li>
-													<li><a href="gradients.html">Background Gradients</a></li>
-												</ul>
-											</div>
-											<div class="sub-menu-column">
-												<div class="menuheading">&nbsp;</div>
-												<ul>
-													<li><a href="header-v1.html">Header v1</a></li>
-													<li><a href="header-v2.html">Header v2</a></li>
-													<li><a href="header-v3.html">Header v3</a></li>
-													<li><a href="footer-design.html">Footer Design</a></li>
-												</ul>
+								<div class="sub-menu-section">
+									<div class="container">
+										<div class="col-md-12">
+											<div class="sub-menu-center-block">
+												<div class="sub-menu-column">
+													<a href="#"><img src="images/banner/header-img-2.png" alt="service" class="img-fluid"></a>
+												</div>
+												<div class="sub-menu-column">
+													<div class="menuheading">Shortcodes</div>
+													<ul>
+														<li><a href="pricing.html">Pricing</a></li>
+														<li><a href="service.html">Service Card</a></li>
+														<li><a href="typography.html">Typography</a></li>
+														<li><a href="button.html">Buttons</a></li>
+														<li><a href="locations.html">Office Location</a></li>
+														
+														
+													</ul>
+												</div>
+												<div class="sub-menu-column">
+													<div class="menuheading">&nbsp;</div>
+													<ul>
+														<li><a href="faq.html">FAQs</a>	</li>
+														<li><a href="accordion.html">Accordion</a></li>
+														<li><a href="error.html">404 Page</a></li>
+														<li><a href="gradients.html">Background Gradients</a></li>
+													</ul>
+												</div>
+												<div class="sub-menu-column">
+													<div class="menuheading">&nbsp;</div>
+													<ul>
+														<li><a href="header-v1.html">Header v1</a></li>
+														<li><a href="header-v2.html">Header v2</a></li>
+														<li><a href="header-v3.html">Header v3</a></li>
+														<li><a href="footer-design.html">Footer Design</a></li>
+													</ul>
+												</div>
 											</div>
 										</div>
 									</div>
 								</div>
-							</div>
-						</div> -->
+							</div> -->
 						</li>
 						<li><a href="about.html" class="menu-links anchro">About Us</a> </li>
 
@@ -243,24 +409,24 @@
 						<li class="contact-show"><a href="#" class="btn-round- trngl btn-br bg-btn"><i
 									class="fas fa-phone-alt"></i></a>
 							<!-- <div class="contact-inquiry">
-						<div class="contact-info-">
-							<div class="contct-heading">Niwax Contacts</div>
-							<div class="inquiry-card-nn hrbg">
-								<div class="title-inq-c">FOR HR DEPARTMENT</div>
-								<ul><li class="mb0"><img src="images/flags/us.svg" alt="us office" class="flags-size"> <a href="tel:1111111111" >+1-123-456-7890</a></li></ul>
+							<div class="contact-info-">
+								<div class="contct-heading">Niwax Contacts</div>
+								<div class="inquiry-card-nn hrbg">
+									<div class="title-inq-c">FOR HR DEPARTMENT</div>
+									<ul><li class="mb0"><img src="images/flags/us.svg" alt="us office" class="flags-size"> <a href="tel:1111111111" >+1-123-456-7890</a></li></ul>
+								</div>
+								<div class="inquiry-card-nn">
+									<div class="title-inq-c">FOR SALES DEPARTMENT</div>
+									<ul><li><a href="tel:1111111111"><img src="images/flags/us.svg" alt="us office" class="flags-size"> +1-123-456-7890</a></li>
+									<li><a href="tel:1111111111"><img src="images/flags/au.svg" alt="australia office" class="flags-size"> +1-123-456-7890</a></li>
+									<li><a href="tel:1111111111"><img src="images/flags/it.svg" alt="italy office" class="flags-size"> +91-123-456-7890</a></li>
+									<li><i class="fab fa-skype"></i><a href="skype:niwax.company?call" >niwax.company</a></li>
+									<li><i class="fas fa-envelope"></i><a href="mailto:info@businessname.com" >info@businessname.com</a></li></ul>
+								</div>
 							</div>
-							<div class="inquiry-card-nn">
-								<div class="title-inq-c">FOR SALES DEPARTMENT</div>
-								<ul><li><a href="tel:1111111111"><img src="images/flags/us.svg" alt="us office" class="flags-size"> +1-123-456-7890</a></li>
-								<li><a href="tel:1111111111"><img src="images/flags/au.svg" alt="australia office" class="flags-size"> +1-123-456-7890</a></li>
-								<li><a href="tel:1111111111"><img src="images/flags/it.svg" alt="italy office" class="flags-size"> +91-123-456-7890</a></li>
-								<li><i class="fab fa-skype"></i><a href="skype:niwax.company?call" >niwax.company</a></li>
-								<li><i class="fas fa-envelope"></i><a href="mailto:info@businessname.com" >info@businessname.com</a></li></ul>
-							</div>
-						</div>
-					</div> -->
+						</div> -->
 						</li>
-						<li><a href="get-quote.html" class="btn-br bg-btn3 btshad-b2 lnk">Request A Quote <span
+						<li><a href="get-quote.html" class="btn-br bg-btn3 btshad-b2 lnk anchro">Request A Quote <span
 									class="circle"></span></a> </li>
 					</ul>
 				</div>
@@ -394,9 +560,9 @@
 							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 384">
 								<path
 									d="M353.188,252.052c-23.51,0-46.594-3.677-68.469-10.906c-10.719-3.656-23.896-0.302-30.438,6.417l-43.177,32.594
-			c-50.073-26.729-80.917-57.563-107.281-107.26l31.635-42.052c8.219-8.208,11.167-20.198,7.635-31.448
-			c-7.26-21.99-10.948-45.063-10.948-68.583C132.146,13.823,118.323,0,101.333,0H30.813C13.823,0,0,13.823,0,30.813
-			C0,225.563,158.438,384,353.188,384c16.99,0,30.813-13.823,30.813-30.813v-70.323C384,265.875,370.177,252.052,353.188,252.052z" />
+				c-50.073-26.729-80.917-57.563-107.281-107.26l31.635-42.052c8.219-8.208,11.167-20.198,7.635-31.448
+				c-7.26-21.99-10.948-45.063-10.948-68.583C132.146,13.823,118.323,0,101.333,0H30.813C13.823,0,0,13.823,0,30.813
+				C0,225.563,158.438,384,353.188,384c16.99,0,30.813-13.823,30.813-30.813v-70.323C384,265.875,370.177,252.052,353.188,252.052z" />
 							</svg>
 						</a>
 					</li>
@@ -438,18 +604,15 @@
 									<div class="title-inq-c">FOR SALES DEPARTMENT</div>
 									<ul>
 										<li><a href="tel:1111111111"><img src="images/flags/us.svg" alt="us office"
-													class="flags-size">
-												+1-123-456-7890</a></li>
+													class="flags-size"> +1-123-456-7890</a></li>
 										<li><a href="tel:1111111111"><img src="images/flags/au.svg"
 													alt="australia office" class="flags-size"> +1-123-456-7890</a></li>
 										<li><a href="tel:1111111111"><img src="images/flags/it.svg" alt="italy office"
-													class="flags-size">
-												+91-123-456-7890</a></li>
+													class="flags-size"> +91-123-456-7890</a></li>
 										<li><i class="fab fa-skype"></i><a
 												href="skype:niwax.company?call">niwax.company</a></li>
 										<li><i class="fas fa-envelope"></i><a
-												href="mailto:info@businessname.com">info@businessname.com</a>
-										</li>
+												href="mailto:info@businessname.com">info@businessname.com</a></li>
 									</ul>
 								</div>
 							</div>
